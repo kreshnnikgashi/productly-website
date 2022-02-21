@@ -12,6 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>Productly Website</title>
   </head>
@@ -142,7 +149,7 @@
 
         <div class="textual-part">
           <p>Easier decision making for</p>
-          <h2 title="Product Managers">Product Managers</h2>
+          <h2>Product Managers</h2>
           <p>
             The Myspace page defines the individual, his or her characteristics,
             traits, personal choices and the overall personality of the person.
@@ -210,32 +217,38 @@
       </section>
 
       <!-- Footer -->
-
-      <footer class="footer-wrapper">
-        <div class="footer-logo">
-          <img src="assets/img/Logo.svg" alt="Logo" title="Logo" />
-        </div>
-        <div>
-          <ul>
-            <li><a href="#" title="About Us">About Us</a></li>
-            <li><a href="#" title="Blog">Blog</a></li>
-            <li><a href="#" title="Contact">Contact</a></li>
-            <li><a href="#" title="FAQ">FAQ</a></li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li><a href="#" title="Disclaimer">Disclaimer</a></li>
-            <li><a href="#" title="Financing">Financing</a></li>
-            <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
-            <li><a href="#" title="Terms of Service">Terms of Service</a></li>
-          </ul>
-        </div>
-        <div class="footer-form">
-          <input type="text" class="btn-border" />
-          <button class="btn btn-orange">Sign Up Now</button>
-        </div>
-      </footer>
     </main>
+
+    <footer class="main-footer centered-container">
+      <div class="footer-logo-wrapper">
+        <a href="#" title="LOgo">
+          <img src="assets/img/Logo.svg" alt="Logo" title="Logo" />
+        </a>
+      </div>
+
+      <div class="footer-navigation">
+        <nav>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <ul>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Financing</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </nav>
+
+        <form action="#">
+          <input type="email" name="email" />
+          <button class="btn btn-orange" type="submit">Sign Up Now</button>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
